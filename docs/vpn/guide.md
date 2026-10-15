@@ -4,7 +4,7 @@
 
 ### 1. 座位分布
 
-<img src="./seat.png" alt="座位分布" width="80%">
+<img src="./assets/seat.png" alt="座位分布" width="80%">
 
 
 ## 二、各部门订阅节点分配
@@ -37,7 +37,7 @@
 - **日常节点（默认使用）**
 - **备用节点（特殊情况下使用）**
 
-<img src="./flclash-proxy.png" alt="代理节点" width="80%">
+<img src="./assets/pc/flclash-proxy.png" alt="代理节点" width="80%">
 
 
 ## 2. 节点切换规则
@@ -73,7 +73,7 @@
 
 进入 FlClash：
 
-<img src="./flclash-add.png" alt="添加配置" width="80%">
+<img src="./assets/pc/flclash-add.png" alt="添加配置" width="80%">
 
 
 选择：
@@ -84,7 +84,7 @@ URL
 
 方式添加订阅：
 
-<img src="./flclash-add-url.png" alt="URL导入" width="80%">
+<img src="./assets/pc/flclash-add-url.png" alt="URL导入" width="80%">
 
 
 填写配置名称：
@@ -102,7 +102,7 @@ URL
 然后将对应订阅地址填写到 URL 输入框。
 
 
-<img src="./flclash-add-name.png" alt="填写名称" width="80%">
+<img src="./assets/pc/flclash-add-name.png" alt="填写名称" width="80%">
 
 
 ---
@@ -120,7 +120,7 @@ URL
 更新订阅内容。
 
 
-<img src="./flclash-sub-update.png" alt="同步订阅" width="80%">
+<img src="./assets/pc/flclash-sub-update.png" alt="同步订阅" width="80%">
 
 
 ---
@@ -129,7 +129,7 @@ URL
 
 首次添加订阅后，请确认以下配置已开启：
 
-<img src="./flclash-home.png" alt="客户端配置" width="80%">
+<img src="./assets/pc/flclash-home.png" alt="客户端配置" width="80%">
 
 
 必须确认：
@@ -141,12 +141,12 @@ URL
 
 ---
 
-# 五、FlClash 客户端更新
+# 五、FlClash 客户端（安装 / 更新）
 
 如需下载最新版本 FlClash 客户端，请访问：
 
 https://github.com/chen08209/FlClash/releases
 
-<img src="./flclash-download.png" alt="客户端下载对应版本" width="80%">
+<img src="./assets/pc/flclash-download.png" alt="客户端下载对应版本" width="80%">
 
 请保持客户端版本更新，以确保代理功能正常运行。

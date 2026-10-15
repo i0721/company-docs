@@ -1,28 +1,31 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Company Docs",
-  description: "Docs Desc",
+  lang: 'zh-CN',
+  title: 'VPN 使用文档',
+  description: '公司 VPN 节点使用规范与 Windows、Android、iOS 客户端教程',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      // { text: 'VPN 使用规范', link: '/vpn/guide' }
+      { text: '首页', link: '/' },
+      { text: '使用规范', link: '/vpn/guide' },
+      { text: 'Android', link: '/vpn/mobile-android' },
+      { text: 'iOS', link: '/vpn/mobile-ios' },
     ],
-
     sidebar: [
       {
-        text: '快速浏览',
+        text: 'VPN 使用文档',
         items: [
-          { text: '新人 VPN 使用规范', link: '/vpn/guide' },
-          // { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: '节点使用规范与电脑端教程', link: '/vpn/guide' },
+          { text: 'Android · FlClash', link: '/vpn/mobile-android' },
+          { text: 'iPhone / iPad · Shadowrocket', link: '/vpn/mobile-ios' },
+        ],
+      },
     ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+    outline: { label: '本页目录' },
+    docFooter: { prev: '上一篇', next: '下一篇' },
+    lastUpdated: { text: '上次更新' },
+    returnToTopLabel: '返回顶部',
+    sidebarMenuLabel: '目录',
+    darkModeSwitchLabel: '外观',
+  },
 })
