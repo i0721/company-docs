@@ -16,17 +16,11 @@
 
 ## 二、获取所属部门的订阅地址
 
-| 部门 / 节点分组 | 订阅地址 |
-| --- | --- |
-| 6部 | `https://sub.nekobox.page/department6` |
-| 7部 | `https://sub.nekobox.page/department7` |
-| 1部B | `https://sub.nekobox.page/department1b` |
-| 1部A | `https://sub.nekobox.page/department1a` |
-| 市场 | `https://sub.nekobox.page/department0` |
+<SubscriptionList />
 
 **特殊部门：** 人事、翻译使用 **7部**；监察使用 **1部B**；策划、技术使用 **1部A**；Lu、王总、旺哥使用 **市场**。
 
-请复制表格里属于自己部门的 **完整订阅地址**。如有调整，以[VPN 代理节点使用规范](./guide.md)为准。
+点击上方自己部门的 **订阅地址**，显示「已复制」后即可粘贴到 FlClash。如有调整，以[VPN 代理节点使用规范](./guide.md)为准。
 
 ## 三、添加订阅配置
 

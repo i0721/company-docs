@@ -16,23 +16,17 @@
 
 ## 二、获取所属部门订阅地址
 
-| 部门 / 节点分组 | 订阅地址 |
-| --- | --- |
-| 6部 | `https://sub.nekobox.page/department6` |
-| 7部 | `https://sub.nekobox.page/department7` |
-| 1部B | `https://sub.nekobox.page/department1b` |
-| 1部A | `https://sub.nekobox.page/department1a` |
-| 市场 | `https://sub.nekobox.page/department0` |
+<SubscriptionList />
 
 **特殊部门：** 人事、翻译使用 **7部**；监察使用 **1部B**；策划、技术使用 **1部A**；Lu、王总、旺哥使用 **市场**。
 
-复制对应部门的完整链接，后面会粘贴到 URL 栏。更多要求参见[VPN 代理节点使用规范](./guide.md)。
+点击对应部门的订阅地址即可复制，随后粘贴到 Shadowrocket 的 URL 栏。更多要求参见[VPN 代理节点使用规范](./guide.md)。
 
 ## 三、添加订阅
 
 ### 允许粘贴订阅地址
 
-建议先复制所属部门的订阅地址。如果 Shadowrocket 提示 **「允许粘贴」**，请点击 **允许粘贴**，方便将链接填入订阅 URL；也可以手动输入。
+请先点击第二部分中所属部门的订阅地址完成复制。如果 Shadowrocket 提示 **「允许粘贴」**，请点击 **允许粘贴**，方便将链接填入订阅 URL；也可以手动输入。
 
 <img src="./assets/mobile/ios/1.png" alt="iOS Shadowrocket 请求允许从其他应用粘贴订阅地址" width="360" />
 
@@ -88,7 +82,7 @@
 
 | 问题 | 处理方法 |
 | --- | --- |
-| 粘贴 URL 时无内容 | 检查是否复制了完整链接；在系统提示出现时允许粘贴，或手动输入。 |
+| 粘贴 URL 时无内容 | 返回第二部分点击所属部门地址重新复制；在系统提示出现时选择允许粘贴。 |
 | 保存后没有出现节点 | 确认添加类型为 **Subscribe**、URL 正确，尝试使用订阅旁的刷新按钮。 |
 | 无法开启 VPN | 确认已允许添加 VPN 配置，并检查系统设置中的 VPN 授权状态。 |
 | 显示连接但平台仍无法访问 | 检查所选节点和全局路由设置，并测试日常节点或临时切换备用节点。 |
