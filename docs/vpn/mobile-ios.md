@@ -8,15 +8,11 @@
 - 访问需通过公司代理的业务平台时，将 **全局路由**设置为 **代理**。图片中的「配置」是截图时的状态，不代表必须保持该状态。
 :::
 
-## 一、安装 Shadowrocket
+## 一、下载安装客户端
 
-1. 在 iPhone 或 iPad 的 App Store 中搜索 **Shadowrocket**，确认应用名称后安装。应用是否可购买或下载取决于账号所在的 App Store 地区。
-2. 安装后打开 Shadowrocket。
-3. 建议先复制本人部门的订阅地址，再回到应用进行导入。
+使用 iPhone 或 iPad 的用户，请先阅读 **[Shadowrocket 客户端下载与安装教程](./client-download.md#ios)**，通过 Apple App Store 下载并安装。
 
-**如弹出「允许粘贴」提示：** 点击 **允许粘贴**，以便将从聊天软件或其他应用复制的订阅地址填入 Shadowrocket；也可以选择不允许并手动输入地址。
-
-<img src="./assets/mobile/ios/1.png" alt="iOS Shadowrocket 请求允许从其他应用粘贴订阅地址" width="360" />
+安装成功后，返回本页继续导入公司订阅。
 
 ## 二、获取所属部门订阅地址
 
@@ -33,6 +29,13 @@
 复制对应部门的完整链接，后面会粘贴到 URL 栏。更多要求参见[VPN 代理节点使用规范](./guide.md)。
 
 ## 三、添加订阅
+
+### 允许粘贴订阅地址
+
+建议先复制所属部门的订阅地址。如果 Shadowrocket 提示 **「允许粘贴」**，请点击 **允许粘贴**，方便将链接填入订阅 URL；也可以手动输入。
+
+<img src="./assets/mobile/ios/1.png" alt="iOS Shadowrocket 请求允许从其他应用粘贴订阅地址" width="360" />
+
 
 ### 第 1 步：点击右上角「+」
 
@@ -91,4 +94,4 @@
 | 显示连接但平台仍无法访问 | 检查所选节点和全局路由设置，并测试日常节点或临时切换备用节点。 |
 | 提示订阅更新失败 | 检查手机网络、URL 拼写与订阅是否有效；持续失败请联系技术人员。 |
 
-**相关文档：** [VPN 代理节点使用规范](./guide.md) · [Android 使用教程](./mobile-android.md)
+**相关文档：** [客户端下载与安装](./client-download.md#ios) · [VPN 代理节点使用规范](./guide.md) · [Android 使用教程](./mobile-android.md)

@@ -1,10 +1,10 @@
 # VPN 使用文档
 
-这是一个基于 VitePress 的公司 VPN 使用文档项目，包含部门节点使用规范、电脑端 FlClash 操作说明、Android FlClash 教程和 iOS Shadowrocket 教程。移动端教程配有 `docs/vpn/assets/mobile/` 下的操作截图。
+这是基于 VitePress 的公司 VPN 文档项目。**客户端下载**和**客户端使用**分成独立页面，包含 Android FlClash、Windows FlClash、iOS Shadowrocket 的下载步骤及图文使用说明。
 
 ## 本地运行
 
-需要 Node.js 和项目指定的 pnpm 版本。进入项目根目录后运行：
+需要 Node.js 和项目配置的 pnpm 环境。进入项目根目录执行：
 
 ```bash
 corepack enable
@@ -12,25 +12,24 @@ pnpm install
 pnpm docs:dev
 ```
 
-开发服务启动后，根据终端输出的本地地址访问文档站。
-
 ## 构建
 
 ```bash
 pnpm docs:build
 ```
 
-构建产物位于 `docs/.vitepress/dist/`。在 Cloudflare Pages 等静态托管平台中，构建命令为 `pnpm docs:build`，输出目录为 `docs/.vitepress/dist`。
+构建输出位于 `docs/.vitepress/dist/`。Cloudflare Pages 的构建命令为 `pnpm docs:build`，输出目录为 `docs/.vitepress/dist`。
 
-## 内容位置
+## 文档目录
 
-| 文件或目录 | 内容 |
+| 路径 | 内容 |
 | --- | --- |
-| `docs/index.md` | 文档首页 |
-| `docs/vpn/guide.md` | 部门订阅分配、使用规范和电脑端教程 |
-| `docs/vpn/mobile-android.md` | Android / FlClash 教程 |
-| `docs/vpn/mobile-ios.md` | iOS / Shadowrocket 教程 |
-| `docs/vpn/assets/` | 座位图、电脑端截图、手机端截图 |
-| `docs/.vitepress/config.ts` | 文档站导航、侧边栏和站点设置 |
+| `docs/index.md` | 首页及导航 |
+| `docs/vpn/client-download.md` | **统一客户端下载与安装教程**（Android / Windows / iOS） |
+| `docs/vpn/guide.md` | 部门订阅、使用规范及 Windows FlClash 使用教程；下载统一链接至下载页 |
+| `docs/vpn/mobile-android.md` | Android FlClash 使用教程；安装步骤链接至下载页 |
+| `docs/vpn/mobile-ios.md` | iOS Shadowrocket 使用教程；安装步骤链接至下载页 |
+| `docs/vpn/assets/` | 原有座位图、PC 和手机操作截图，及新增下载选项截图 |
+| `docs/.vitepress/config.ts` | 导航与侧边栏 |
 
-修改节点分组或订阅地址时，请同步检查三份 VPN 文档里的分配信息，避免员工使用过期链接。
+客户端下载教程位于 `/vpn/client-download`，可通过 `#android`、`#windows`、`#ios` 跳转到相应平台。使用教程与下载教程之间均有互相跳转的链接。

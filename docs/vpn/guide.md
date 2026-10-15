@@ -60,7 +60,7 @@
 
 ---
 
-# 四、FlClash 客户端使用说明
+# 四、FlClash 客户端使用说明 {#windows-usage}
 
 
 ## 1. 添加对应部门订阅地址
@@ -141,12 +141,11 @@ URL
 
 ---
 
-# 五、FlClash 客户端（安装 / 更新）
+# 五、FlClash 客户端下载与安装
 
-如需下载最新版本 FlClash 客户端，请访问：
+Windows 电脑请阅读独立的 **[Windows FlClash 下载与安装教程](./client-download.md#windows)**，按说明选择 **Setup x64** 安装版。
 
-https://github.com/chen08209/FlClash/releases
+- [Android FlClash 下载与安装](./client-download.md#android)
+- [iPhone / iPad Shadowrocket 下载与安装](./client-download.md#ios)
 
-<img src="./assets/pc/flclash-download.png" alt="客户端下载对应版本" width="80%">
-
-请保持客户端版本更新，以确保代理功能正常运行。
+安装客户端后，请返回本页第四部分继续配置公司订阅。
